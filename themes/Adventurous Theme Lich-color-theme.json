@@ -26,7 +26,7 @@
         "titleBar.activeForeground": "#ffffff",
         "titleBar.inactiveBackground": "#000000",
 		"titleBar.inactiveForeground": "#FFFFFF",
-		"scrollbarSlider.background": "#000000",
+		"scrollbarSlider.background": "#373b41",
 		"scrollbarSlider.hoverBackground": "#373b41",
 		
 
@@ -116,7 +116,7 @@
 			],
 			"settings": {
 				"foreground": "#F5BB12",
-				"fontStyle": "bold"
+				"fontStyle": "normal"
 			}
 		},
 		{
