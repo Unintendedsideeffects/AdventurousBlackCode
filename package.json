@@ -1,0 +1,22 @@
+{
+    "name": "adventurous-syntax-black",
+    "displayName": "Adventurous Syntax Black",
+    "publisher": "unintendedsideeffects",
+    "description": "A black theme based on the atom adventurous syntax theme, colors are from the adventure time palette, while background is pitch black",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Adventurous Theme Lich",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Adventurous Theme Lich-color-theme.json"
+            }
+        ]
+    }
+}
