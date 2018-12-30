@@ -4,7 +4,7 @@
     "publisher": "unintendedsideeffects",
     "description": "A black theme based on the atom adventurous syntax theme, colors are from the adventure time palette, while background is pitch black",
     "repository": "https://github.com/Unintendedsideeffects/AdventurousBlackCode",
-    "version": "0.0.1",
+    "version": "0.3.2",
     "engines": {
         "vscode": "^1.30.0"
     },
@@ -14,9 +14,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "Adventurous Theme Lich",
+                "label": "Lich theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Adventurous Theme Lich-color-theme.json"
+            },
+            {
+                "label": "Marceline theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Marceline color-theme.json"
             }
         ]
     }
