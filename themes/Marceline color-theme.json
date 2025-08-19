@@ -10,8 +10,9 @@
 		"tab.activeBorder": "#F5BB12",
 		"tab.activeBorderTop": "#277BD3",
 		"tab.inactiveBackground": "#191B1F",
-		"tab.inactiveForeground": "#ffFFFF",
+		"tab.inactiveForeground": "#BBBBBB",
 		"editorLineNumber.activeForeground": "#277BD3",
+		"editorLineNumber.foreground": "#4C566A",
 		"statusBar.background": "#277BD3",
         "statusBar.foreground":"#FFFFFF",
         "statusBar.debuggingBackground": "#191B1F",
@@ -26,8 +27,15 @@
         "titleBar.activeForeground": "#ffffff",
         "titleBar.inactiveBackground": "#191B1F",
 		"titleBar.inactiveForeground": "#FFFFFF",
-		"scrollbarSlider.background": "#191B1F",
-		"scrollbarSlider.hoverBackground": "#191B1F",
+		"scrollbarSlider.background": "#2B2F36",
+		"scrollbarSlider.hoverBackground": "#343944",
+		"editor.selectionBackground": "#277BD380",
+		"editor.inactiveSelectionBackground": "#277BD340",
+		"editor.selectionHighlightBackground": "#277BD320",
+		"editor.wordHighlightBackground": "#F5BB1233",
+		"editor.wordHighlightStrongBackground": "#F5BB1266",
+		"editorCursor.foreground": "#F5BB12",
+		"editorBracketMatch.border": "#F5BB12"
 		
 
 	},
@@ -46,7 +54,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#404449"
+				"foreground": "#90d8f9"
 			}
 		},
 		{
@@ -106,7 +114,6 @@
 			],
 			"settings": {
 				"foreground": "#FFFFFF"
-				//TODO
 			}
 		},
 		{
@@ -134,10 +141,9 @@
 			"name": "Function, Special Method",
 			"scope": [
 				"entity.name.function",
-				//"meta.function-call",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method",
+				"keyword.other.special-method"
 			],
 			"settings": {
 				"foreground": "#F5BB12"
@@ -211,7 +217,6 @@
 				"support.constant",
 				"constant.character",
 				"constant.escape",
-				//"variable.parameter",
 				"keyword.other.unit",
 				"keyword.other"
 			],
@@ -377,28 +382,48 @@
 		{
 			"name": "Inserted",
 			"scope": [
-				"markup.inserted"
+				"markup.inserted",
+				"markup.inserted.diff",
+				"meta.diff.header.git",
+				"meta.diff.header.from-file"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#C3E88D",
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"name": "Deleted",
 			"scope": [
-				"markup.deleted"
+				"markup.deleted",
+				"markup.deleted.diff"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#FF5370",
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"name": "Changed",
 			"scope": [
-				"markup.changed"
+				"markup.changed",
+				"markup.changed.diff"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#C792EA",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Diff Comments",
+			"scope": [
+				"comment.line.diff",
+				"meta.diff.comment",
+				"punctuation.definition.comment.diff"
+			],
+			"settings": {
+				"foreground": "#65737E",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -566,7 +591,7 @@
 				"text.html.markdown meta.dummy.line-break"
 			],
 			"settings": {
-				"foreground": ""
+				"foreground": "#B2CCD6"
 			}
 		},
 		{
@@ -632,8 +657,8 @@
 				"markup.strike"
 			],
 			"settings": {
-				"fontStyle": "strike",
-				"foreground": ""
+				"fontStyle": "strikethrough",
+				"foreground": "#B2CCD6"
 			}
 		},
 		{
@@ -643,7 +668,7 @@
 			],
 			"settings": {
 				"background": "#65737E",
-				"foreground": "#65737E"
+				"foreground": "#C792EA"
 			}
 		},
 		{
@@ -653,7 +678,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": ""
+				"foreground": "#B2CCD6"
 			}
 		},
 		{

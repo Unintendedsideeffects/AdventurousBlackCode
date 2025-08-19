@@ -22,6 +22,26 @@
                 "label": "Marceline theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Marceline color-theme.json"
+            },
+            {
+                "label": "Finn The Human theme",
+                "uiTheme": "vs",
+                "path": "./themes/Finn The Human-color-theme.json"
+            },
+            {
+                "label": "Jake The Dog theme",
+                "uiTheme": "vs",
+                "path": "./themes/Jake The Dog-color-theme.json"
+            },
+            {
+                "label": "Fern The Human theme",
+                "uiTheme": "vs",
+                "path": "./themes/Fern The Human-color-theme.json"
+            },
+            {
+                "label": "CMO theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/CMO-color-theme.json"
             }
         ]
     }
