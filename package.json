@@ -39,9 +39,9 @@
                 "path": "./themes/Fern The Human-color-theme.json"
             },
             {
-                "label": "CMO theme",
+                "label": "BMO theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/CMO-color-theme.json"
+                "path": "./themes/BMO-color-theme.json"
             }
         ]
     }
