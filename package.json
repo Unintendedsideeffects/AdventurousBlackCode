@@ -42,6 +42,11 @@
                 "label": "BMO theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/BMO-color-theme.json"
+            },
+            {
+                "label": "Princess Bubblegum theme",
+                "uiTheme": "vs",
+                "path": "./themes/Princess Bubblegum-color-theme.json"
             }
         ]
     }
