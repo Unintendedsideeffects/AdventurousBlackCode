@@ -1,6 +1,7 @@
 {
     "name": "adventurous-syntax-black",
     "displayName": "Adventurous Syntax Black",
+    "icon": "images/adventurous.png",
     "publisher": "unintendedsideeffects",
     "description": "A black theme based on the atom adventurous syntax theme, colors are from the adventure time palette, while background is pitch black",
     "repository": "https://github.com/Unintendedsideeffects/AdventurousBlackCode",
