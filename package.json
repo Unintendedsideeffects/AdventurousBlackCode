@@ -5,7 +5,7 @@
     "publisher": "unintendedsideeffects",
     "description": "A black theme based on the atom adventurous syntax theme, colors are from the adventure time palette, while background is pitch black",
     "repository": "https://github.com/Unintendedsideeffects/AdventurousBlackCode",
-    "version": "0.3.2",
+    "version": "0.4.0",
     "engines": {
         "vscode": "^1.30.0"
     },
