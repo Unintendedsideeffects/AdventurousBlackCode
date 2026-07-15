@@ -38,7 +38,6 @@
 		"scrollbarSlider.background": "#44444488",
 		"scrollbarSlider.hoverBackground": "#555555AA",
 		"focusBorder": "#FFFFFF",
-		"selection.background": "#FFFFFF22",
 		"editor.selectionBackground": "#FFFFFF22",
 		"editor.inactiveSelectionBackground": "#FFFFFF11",
 		"list.activeSelectionBackground": "#111111",

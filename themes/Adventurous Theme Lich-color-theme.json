@@ -227,7 +227,7 @@
 		{
 			"name": "Number",
 			"scope": [
-				"constant.numeric",
+				"constant.numeric"
 			],
 			"settings": {
 				"foreground": "#de347a",
@@ -238,7 +238,7 @@
 		{
 			"name": "Constant",
 			"scope": [
-				"constant.language",
+				"constant.language"
 			],
 			"settings": {
 				"foreground": "#f25a55",
